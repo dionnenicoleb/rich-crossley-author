@@ -758,7 +758,7 @@ a { text-decoration: none; color: inherit; }
   }
   .hero-title { font-size: clamp(2.8rem, 11vw, 3.8rem); }
   .hero-stats { gap: 16px; flex-wrap: nowrap; }
-  .stat-num { font-size: 2rem; }
+  .stat-num { font-size: 2.6rem; }
   .stat-label { font-size: 0.68rem; max-width: 80px; }
   .hero-cta-group { flex-direction: column; }
   .hero-cta-group .btn { width: 100%; text-align: center; }
