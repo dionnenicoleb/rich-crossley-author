@@ -757,14 +757,14 @@ a { text-decoration: none; color: inherit; }
     margin-bottom: 28px;
   }
   .hero-title { font-size: clamp(2.8rem, 11vw, 3.8rem); }
-  .hero-stats { gap: 12px; flex-wrap: nowrap; }
-  .stat-num { font-size: 1.4rem; }
-  .stat-label { font-size: 0.62rem; max-width: 70px; }
+  .hero-stats { gap: 16px; flex-wrap: nowrap; }
+  .stat-num { font-size: 2rem; }
+  .stat-label { font-size: 0.68rem; max-width: 80px; }
   .hero-cta-group { flex-direction: column; }
   .hero-cta-group .btn { width: 100%; text-align: center; }
 
   /* Book cover */
-  .book-img { max-width: 180px; }
+  .book-img { max-width: 260px; }
 
   /* Quote band */
   .quote-band { padding: 36px 20px; }
