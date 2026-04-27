@@ -357,7 +357,7 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 120px 80px 80px 40px;
+  padding: 140px 60px 80px 20px;
   position: relative;
   z-index: 2;
 }
@@ -367,14 +367,14 @@ a { text-decoration: none; color: inherit; }
 }
 .book-img {
   width: 100%;
-  max-width: 340px;
+  max-width: 300px;
   border-radius: 4px 10px 10px 4px;
   box-shadow: var(--shadow-book);
-  transform: perspective(800px) rotateY(-8deg);
+  transform: perspective(900px) rotateY(-5deg);
   transition: transform 0.5s ease;
 }
 .book-img:hover {
-  transform: perspective(800px) rotateY(-4deg) translateY(-6px);
+  transform: perspective(900px) rotateY(-2deg) translateY(-6px);
 }
 .book-glow {
   position: absolute;
