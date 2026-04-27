@@ -748,8 +748,14 @@ a { text-decoration: none; color: inherit; }
   .container { padding: 0 20px; }
 
   /* Hero */
+  .hero-bg-line { display: none; }
   .hero-text { padding: 96px 20px 28px; }
   .hero-book { padding: 0 20px 48px; justify-content: center; }
+  .hero-author {
+    padding-bottom: 28px;
+    border-bottom: 1.5px solid rgba(201,168,76,0.4);
+    margin-bottom: 28px;
+  }
   .hero-title { font-size: clamp(2.8rem, 11vw, 3.8rem); }
   .hero-stats { gap: 12px; flex-wrap: nowrap; }
   .stat-num { font-size: 1.4rem; }
